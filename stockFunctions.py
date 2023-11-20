@@ -25,7 +25,7 @@ def graph(Actual,predicted,Actlabel,predlabel,title,Xlabel,ylabel):
     from matplotlib import pyplot as plt
     plt.figure(figsize=(10,5))
     plt.plot(Actual, color = 'blue', label=Actlabel)
-    plt.plot(predicted, color = 'red', label =predlabel)
+    plt.plot(predicted, color = 'green', label =predlabel)
     plt.title(title)
     plt.xlabel(Xlabel)
     plt.ylabel(ylabel)
